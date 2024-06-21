@@ -1,0 +1,38 @@
+.Entails{
+    background-color: #085017;
+    display: flex;
+    align-items: center; 
+    height: 25vh;
+    font-family: inter;
+    transition: transform 0.3s ease-in-out;
+    
+
+}
+@media screen and (max-width: 576px) {
+    .Entails {
+      height: 25vh; /* Apply height only on screens wider than 576px */
+    }
+  }
+  .Entails:hover {
+    transform: scale(1.05); /* Increase the size of the card on hover */
+  }
+
+.stat-item {
+    margin-right: 20px; 
+    align-items: center;
+  }
+  
+  .stat-details {
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+  }
+  
+  .col.d-flex {
+    display: flex;
+    justify-content: center; 
+  }
+
+

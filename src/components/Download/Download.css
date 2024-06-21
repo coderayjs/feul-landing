@@ -1,0 +1,95 @@
+.Download {
+    margin-top: 15em;
+    margin-bottom: 12em;
+}
+
+@media screen and (max-width: 768px){
+    .Download {
+        margin-top: 5em;
+        margin-bottom: 25em;
+    }
+    
+}
+
+.download-app {
+    height: 25rem;
+    margin-left: 0em;
+    margin-right: 0em;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #45ff7b, #25342c);
+}
+
+@media screen and (max-width: 768px){
+    .download-app {
+        height: 33rem;
+        border-radius: 25px;
+        background: linear-gradient(180deg, #45ff7b, #25342c);
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+}
+
+.download-app img {
+    position: absolute;
+    top: -50px;
+}
+
+@media screen and (max-width: 768px){
+    .download-app img {
+        position: absolute;
+        width: 150px;
+        top: 20px;
+ 
+    }
+    
+}
+
+.download-text{
+    margin-top: 8rem;
+    padding-right: 2em;
+}
+
+@media screen and (max-width: 768px){
+    .download-text{
+        margin-top: 16rem;
+        font-size: 20px;
+
+        
+    }
+    
+}
+
+
+.rounded{
+    border-radius: var(--bs-border-radius) !important;
+    padding-top: 24rem;
+    width: 130px;
+    padding-top: 23em;
+}
+
+@media screen and (max-width: 768px){
+    .rounded{
+        position: relative;
+        padding-top: 22em;
+    }
+}
+.google-float-right{
+    float: left;
+    position: relative;
+    left: 13rem;
+    width: 130px;
+    padding-top: 23em;
+}
+
+@media screen and (max-width: 768px){
+    .google-float-right{
+        position: relative;
+        padding-top: 22em;
+    }
+    
+}
+.get-text{
+  font-size: 2.7rem;
+
+}

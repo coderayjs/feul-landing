@@ -1,0 +1,76 @@
+@media (min-width: 768px) {
+  .navbar {
+    background: rgb(11, 26, 15);
+  }
+}
+
+.nav-container {
+  padding-top: 25px;
+  
+}
+
+.Nav-items {
+  position: fixed; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 60px;
+}
+
+.navbar-toggler {
+  color: #fff;
+  background: #fff;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background: rgb(33, 186, 75);
+    margin-top: 10px;
+  }
+}
+
+.navbar-collapse button {
+  right: 50px;
+}
+
+.navbar-nav {
+  padding: 10px;
+}
+
+
+.Order-btn {
+  background-color: #03390C;
+  color: #ffffff; 
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 0px 60.07px 0px #0000001A;
+  transition: background-color 0.3s ease;
+  border-radius: 25px;
+  border: 1.2px solid #1FBA4A;
+  height: 55px;
+  margin-right: 150px;
+  width: 200px;
+  text-decoration: none;
+}
+
+.Order-btn:hover {
+  background-color: #000000; /* Change this to your desired button hover color */
+}
+
+.Order-btn button img {
+  margin-left: 5px;
+}
+
+
+.content {
+  margin-top: 12px; 
+}
+
+container a{
+  color: #ffffff; 
+}
+

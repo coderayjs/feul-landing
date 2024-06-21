@@ -1,0 +1,99 @@
+.Hero {
+    top: 10rem;
+}
+
+.big-text{
+    color: white;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 77.45px;
+}
+
+.sub-text{
+    color: white;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    text-align: left;
+}
+
+.PriceCard {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .Hero {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Hero {
+        top: 6rem !important;
+    }
+
+    .hero {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hero .big-text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero .sub-text {
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .PriceCard {
+        margin-top: 20px;
+    }
+
+    .PriceCard h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .PriceCard p {
+        font-size: 20px;
+    }
+}
+
+.getbtn{
+    background-color: #03390C;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 60.07px 0px #0000001A;
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+    border: 1.2px solid #1FBA4A;
+    height: 55px;
+    text-decoration: none;
+    width: 180px;
+}
+
+.getbtn:hover{
+    background-color: #000000;
+}
+
+@media screen and (min-width: 400px) {
+    .getbtn {
+        position: absolute;
+        left: 30%;
+    }
+}
+
+
+.btn-order{
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
+}

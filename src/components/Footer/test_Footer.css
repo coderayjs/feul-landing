@@ -1,0 +1,8 @@
+//on mobile devices, the footer will have a height of 100vh
+
+/* Test Case 1: Mobile device */
+@media screen and (max-width: 767px) {
+  .footer {
+    height: 100vh;
+  }
+}

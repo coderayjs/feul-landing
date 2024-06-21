@@ -1,0 +1,35 @@
+.comps {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 40px;
+  padding-left: 20rem;/* Updated margin property */
+  padding-right: 20rem;
+}
+
+.logo-imgs {
+  margin-bottom: 10px;
+  height: 40px;
+}
+  
+  @media screen and (max-width: 768px) {
+    .comps {
+      justify-content: center;
+      display: block;
+      padding-left: 150px;}
+  }
+  
+
+  .head-companies {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: #1FBA4A;
+  }
+
+
+  .text-comp{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }

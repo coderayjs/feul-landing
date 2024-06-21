@@ -1,0 +1,52 @@
+.feature-item {
+    border-radius: 0;
+    color: #03390C;
+    font-family: inter;
+    height: 30vh;
+
+}
+
+.feature-1 {
+    background-color: #b5e8c6;
+    
+    
+}
+
+.feature-2 {
+    background-color: #d0d6d2;
+}
+
+.feature-3 {
+    background-color: #68ff93;
+}
+
+.feature-4 {
+    background-color: #1da243;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3.5rem;
+    
+}
+
+.feature-item {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Add this style for the hover effect */
+  .feature-1:hover {
+    transform: scale(1.05); /* Increase the size of the card on hover */
+  }
+
+  .feature-2:hover {
+    transform: scale(1.05); /* Increase the size of the card on hover */
+  }
+  .feature-3:hover {
+    transform: scale(1.05); /* Increase the size of the card on hover */
+  }
+  .feature-4:hover {
+    transform: scale(1.05); /* Increase the size of the card on hover */
+  }

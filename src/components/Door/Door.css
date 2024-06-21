@@ -1,0 +1,13 @@
+.door{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+.door:hover {
+    transform: scale(1.05); /* Increase the size of the card on hover */
+  }
